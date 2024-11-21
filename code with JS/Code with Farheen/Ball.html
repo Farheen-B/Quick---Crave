@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALL</title>
+    <style>
+        .box {
+            background-color: brown;
+            height: 55px;
+            width: 55px;
+            position: absolute;
+            border-radius: 40px;
+            bottom: 0;
+            left: 0;
+
+        }
+
+        .container {
+            position: relative;
+            background-color: blueviolet;
+            height: 50vh;
+            width: 170vw;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>BALL</title>
+            <style>
+                .box {
+                    background-color: brown;
+                    height: 55px;
+                    width: 55px;
+                    position: absolute;
+                    border-radius: 40px;
+                    bottom: 0;
+                    left: 0;
+                    /* animation: Farheen 4s ease-in 1s  infinite alternate; */
+                    animation:  animatex 3s linear infinite , animatey 1s ease-out infinite alternate;
+                }
+
+                /* @keyframes Farheen {
+            0% {
+                transform: translate(0, 0);
+            }
+            25% {
+                transform: translate(300px, -200px); /* Move right and up */
+            /* }
+            50% {
+                transform: translate(500px, 0); /* Fall down */
+            }
+            /* 75% {
+                transform: translate(300px, -200px); /* Move left and up */
+            /* }
+            100% {
+                transform: translate(0, 0); /* Return to start */
+            /* } 
+        }  */
+          
+
+                .container {
+                    position: relative;
+                    background-color: blueviolet;
+                    height: 50vh;
+                    width: 70vw;
+
+                }
+                @keyframes animatex{
+                    from{
+                        left: 0%;
+                        
+                    }
+                    to{
+                        left: 100%;
+                    }
+
+                }
+                @keyframes animatey{
+                    from{
+                        bottom: 0%;
+                    }
+                    to{
+                        bottom: 100%;
+                    }
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class="container"></div>
+            <div class="box"></div>
+
+        </body>
+
+        </html>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+:root{
+    --hover-color: #e42996;
+    --color : rgb(228, 175, 194);
+    --seccolor : rgb(134, 88, 136);
+    --defpad : 7px 40px 7px 40px;
+    --global-margin: 4px;
+
+}
+header{
+    position: sticky;
+    top: 0px;
+}
+.NavBar{
+   
+    margin: 13px 0px 13px 36px;
+    height: 6vh;
+    width: 93vw;
+    border: 3px solid rgb(221, 58, 221);
+    display: flex;
+    background-color: var(--seccolor);
+    
+}
+.Home{
+    background-color: var(--color);
+    margin: var(--global-margin);
+    padding: var(--defpad);
+    
+}
+.About{
+    background-color: var(--color);
+    margin: var(--global-margin);
+    padding: var(--defpad);
+}
+.portfolio{
+    background-color: var(--color);
+    margin: var(--global-margin);
+    padding: var(--defpad);
+}
+
+.Services{
+    background-color: var(--color);
+    margin: var(--global-margin);
+    padding: var(--defpad);
+
+}
+.Home:hover,.About:hover,.portfolio:hover,.Services:hover {
+    background-color: var(--hover-color); 
+    transform: scale(1.1);
+}
+.boxes{
+    border: 2px solid rgb(221, 58, 221);
+    height: 300px;
+    width: 90%;
+    margin: 11px 35px 11px 35px;
+    padding:2% ;
+    display: flex;
+    background-color: var(--seccolor);
+}
+.box{
+    border: 2px solid rgb(221, 58, 221);
+    height: 99%;
+    width: 199%;
+    margin: 0% 1em ;  
+    background-color: #e42996;  
+}
+:hover.box{
+    background-color: var(--color);
+    transform: scale(1.1);
+}
+.web{
+    border: 2px solid rgb(221, 58, 221);
+    border-radius: 15px;
+    height: 25vh;
+    width: 93vw;
+    margin: 40px 0px 10px 37px;
+    padding: 2em 0px 0px 9em ;
+    box-sizing: border-box;
+    font-size: 30px;
+    color:blue;
+    background-color: var(--color);
+}
+.foot{
+    border: 2px solid black;
+    height: 20vh;
+    width: 93vw;
+    margin: 40px 0px 10px 37px;
+    background-color: violet;
+    border: 2px solid rgb(221, 58, 221);
+    border-radius: 15px;
+    height: 25vh;
+    width: 93vw;
+    margin: 40px 0px 10px 37px;
+    padding: 2em 0px 0px 17em ;
+    box-sizing: border-box;
+    font-size: 30px;
+    color:blue;
+}
+img {
+    height: 15vh;
+    border-radius: 50px;
+    position: fixed;
+    display: flex;
+    margin-left: 75em;
+}
+body{
+    background-color: rgb(129, 184, 221);
+    
+}

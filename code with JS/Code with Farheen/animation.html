@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 40vh;
+            width: 40vw;
+            background-color: rgb(212, 88, 88);
+        }
+        .box{
+            height: 6vh;
+            width: 5vw;
+            animation: Farheen 3s cubic-bezier(0.94, 0.62, 0.01, 0.96)  infinite alternate-reverse ;
+            background-color: palevioletred;
+        }
+        @keyframes Farheen{
+           0%{
+                background-color: blue;
+                transform: translateX(0px); /* Start position */
+            }
+           
+            100%{
+                 transform: rotate(79.9deg);
+               
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
